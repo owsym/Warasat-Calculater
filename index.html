@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>warasat Calculater</title>
+<link rel="stylesheet" href="ss.css">
+</head>
+<body class="bc">
+ <div>
+ <h1>Total Amount</h1>   
+ <input type="number" placeholder="Enter total amount" id="total"><br>
+ <button onclick=" 
+ var totalamount=document.getElementById('total') .value;
+ var wifeShare=totalamount/8;
+ document.getElementById('head2').innerHTML=wifeShare;">Wife Share</button><br>
+ <button onclick=" 
+ var totalamount=document.getElementById('total') .value;
+ var sonShare=totalamount/8*7;
+ document.getElementById('head3').innerHTML=sonShare;">Son Share</button>
+ <h2 id="head2">Wife Share</h2>
+ <h2 id="head3">Son Share</h2>
+ </div>   
+    
+</body>
+</html>

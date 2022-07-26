@@ -1,0 +1,40 @@
+*{
+ margin: 0;
+ padding: 0;   
+}
+.bc{
+background-image: url(m.jpeg);
+background-size: cover;
+background-position: center;
+background-attachment: fixed;   
+}
+h1{
+    color:gold;
+    margin-left: 140px;
+    margin-top: 30px;
+    font-size: 60px;    
+    }
+    input{
+        padding: 20px;
+        width: 500px;
+        margin-left: 40px;
+        background: transparent;
+        color: yellow;
+        font-size:40px ;
+        font-family: sans-serif;
+        }
+        button{
+            padding: 20px;
+            width: 540px; 
+            margin-left: 40px;   
+            background: transparent;
+            color: yellow;
+            font-size: 30px;
+            cursor: pointer;
+            } 
+            h2{
+                color: gold;
+                margin-left: 140px;
+                margin-top: 30px;
+                font-size: 60px;    
+                }   
